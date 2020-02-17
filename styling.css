@@ -1,0 +1,372 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'sans-serif';
+    
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+header{
+    
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+
+.image{   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("back1.jpg");
+    background-size: cover;
+    background-position: center;
+     height:100vh;
+    position: relative;
+ 
+}
+
+
+.nav{
+    
+    font-family: 'Pacifico';
+    font-size:25px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom:0;
+    margin-right: 1200px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    background-color: aliceblue;
+    border: 2px solid orange;
+border-radius: 50%;
+    text-align: center;
+        display: inline-block;
+
+    
+    
+    
+}
+.line{
+    display: inline-block;
+    
+}
+.nav1{
+    
+    font-family: 'Pacifico';
+    height:75px;
+    width:75px;
+    font-size:40px;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom:0;
+    margin-right: 1400px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: whitesmoke;
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    
+    
+    
+}
+
+.icon
+{       margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0px 0px 0px 0px;
+        font-family: 'Orbitron';
+        color:black;
+        animation-name: jump;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+       display: inline-block;
+
+}
+
+@keyframes jump{
+    0% {top:10px;}
+    100% {left:15px;}
+}
+
+
+.caption{
+    padding-top: 0;
+    padding-left: 0;
+    font-family: 'Bangers';
+    font-weight: 1000;
+    font-size: 80px;
+    color:white;
+    margin-left: 650px;
+    margin-top: 250px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 0px;
+
+  position: relative;
+background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("white.jpg");
+    
+    background-size: cover;
+    background-position: center;
+     height:80vh;
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+    
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: gray;
+  font-weight: bold;
+    background-color: gainsboro;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.headfont{
+    font-family:'Ubuntu';
+        font-size: 60px;
+    text-align: center;
+    padding-top:40px;
+    color:#1C6452 ;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+.headfont1{
+    font-family:'Ubuntu';
+        font-size: 60px;
+    text-align: center;
+    padding-top:40px;
+    color:#1C6452 ;
+    
+    margin-right: 400px;
+    margin-left: 400px;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.profile{
+    height:350px;
+    width:300px;
+
+    font-family: 'Open Sans';
+    
+    margin-left: 200px;
+    margin-top: 50px;
+    border: 2px;
+    border-color: orange;
+    border-style:dotted;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    
+
+    
+        
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.img1{
+    margin-top: 0px;
+
+    padding-left: 0px;
+    border-radius: 50%;
+    margin-top:10px;
+     box-shadow: 5px 10px #888888;
+    
+}
+.img{
+    margin-left: 150px;
+}
+.experience{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("light.jpg");
+    background-size: cover;
+    background-position: center;
+     height:200vh;
+    position: relative;
+}
+.data{
+     font-family:'Ubuntu';
+        font-size: 40px;
+    
+    padding-top:40px;
+    color:#1C6452 ;
+    
+    margin-right: 600px;
+    margin-left: 400px;
+}
+.ed1{
+    font-family:'Ubuntu';
+     font-size: 20px;
+    margin-left: 400px;
+    color: black;
+}
+.ed2{
+    height:150px;
+    width: 500px;
+    
+    
+    font-family:'Ubuntu';
+     font-size: 20px;
+    color: black;
+    
+}
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("black.jpg");
+    background-size: cover;
+    background-position: center;
+     height:75vh;
+    position: relative;
+}
+.headfont2{
+    font-family:'Ubuntu';
+        font-size: 60px;
+    text-align: center;
+    padding-top:40px;
+    color:aliceblue;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-top: 20px;
+}
+.contact1{
+    color: aliceblue;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+        border-color: white;
+    margin-top:2%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+.linked:hover{
+    background-color:orange;
+    color: black;
+    font-size:15px;
+    font-family: "Orbitron";
+    border-radius: 50%;
+    
+}
+.linked{
+      color: white;
+    
+    font-size:15px;
+    font-family: "Orbitron";
+    
+}
+.drop{
+    display: inline-block;
+    position:relative;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.dropdown {
+    position: absolute;
+    display: none;
+}
+.dropdown a{
+   
+    font-family: 'Orbitron';
+    padding: 25px 25px;
+    border-color: orange;
+    border:1px;
+    border-style: solid;
+    background-color:silver;
+    text-decoration: none;
+    display: block;
+    
+}
+.drop:hover .dropdown{
+    display: block;
+}
+.dropdown a:hover{
+    background-color: orangered;
+}
